@@ -60,6 +60,15 @@ nav p {
     border: 1px solid black;
 } */
 
+.timeLog img {
+    width: 20px;
+    top: 50%;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
 footer {
     text-align: center;
 }

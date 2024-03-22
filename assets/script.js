@@ -49,6 +49,10 @@ function createTimeLogs() {
         userText.setAttribute('type','text');
         userText.setAttribute('placeholder',' ');
 
+        var img = document.createElement('img');
+        img.setAttribute('src','assets/images/save.png')
+        img.setAttribute('alt', 'save-image');
+
         //entering text from user
         timeLog.appendChild(userText);
 
