@@ -1,0 +1,76 @@
+
+/* .lexend-tera-fancy_font {
+    font-family: "Lexend Tera", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }; */
+  
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(222, 200, 218);
+}
+
+nav p {
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+/* main {
+    display: flex;
+} */
+
+/* #planner {
+    background-color: whitesmoke;
+    width: 90%;
+    /*just in case to remind me about padding
+    padding: 5px;
+    min-height: 40px;
+    max-height: auto;
+    margin-bottom: 10px;
+    border: 1px solid black; 
+}*/
+
+.timeLog {
+    background-color: aqua;
+    margin-bottom: 10px;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*input fields*/
+.userText input[type="text"] {
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 5px;
+    width: calc(100% - 10%);
+}
+
+/* .hourlyEntries {
+    background-color: whitesmoke;
+    width: 70%;
+    /*just in case to remind me about padding
+    padding: 5px;
+    min-height: 20px;
+    max-height: auto;
+    border: 1px solid black;
+} */
+
+footer {
+    text-align: center;
+}
+
+img {
+    height: 20px;
+}
+
+
+/*@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }*/
